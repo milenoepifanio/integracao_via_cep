@@ -11,8 +11,8 @@ pnpm-debug.log*
 # TypeScript
 dist/
 build/
-lib/
 *.tsbuildinfo
+
 
 # dotenv
 .env

@@ -5,7 +5,7 @@ Fornece:
 - Função `fetchViaCep(cep)` para buscar os dados de endereço por CEP.
 - Utilitários: `formatCep`, `isValidCep` e lista de UFs (`BRAZILIAN_STATES`).
 - Hook React `useViaCep()` com debounce e estado (loading / error / lastResult) para uso em formulários.
-## Conteúdo
+## Conteúdo 
 
 - `src/lib/viacep.ts` — implementação das funções de chamada e validação.
 - `src/hooks/useViaCep.ts` — hook React para buscas com debounce.
@@ -14,7 +14,7 @@ Fornece:
 Este repositório é um pacote/implementação local em TypeScript. Para usar localmente no seu projeto, clone este repositório e instale dependências:
 ```powershell
 git clone <repo-url>
-cd "Integração via CEP"
+cd "Integração via CEP Explicada"
 npm install
 ```
 Se for consumir os arquivos diretamente em um projeto TypeScript/React, importe os módulos a partir do caminho do projeto ou publique/adapte conforme necessário.
@@ -124,4 +124,3 @@ MIT — consulte o arquivo LICENSE (ou adicione uma licença) se desejar publica
 ## Contato
 
 Se precisar de ajuda com a integração, descreva o cenário (framework, versão do React/Node, se há bundler) ao abrir uma issue.
-
