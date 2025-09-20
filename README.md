@@ -11,12 +11,7 @@ Fornece:
 - `src/hooks/useViaCep.ts` — hook React para buscas com debounce.
 ## Instalação
 
-Este repositório é um pacote/implementação local em TypeScript. Para usar localmente no seu projeto, clone este repositório e instale dependências:
-```powershell
-git clone <repo-url>
-cd "Integração via CEP Explicada"
-npm install
-```
+Este repositório é um pacote/implementação local em TypeScript. Para usar localmente no seu projeto, clone este repositório e instale dependências.
 Se for consumir os arquivos diretamente em um projeto TypeScript/React, importe os módulos a partir do caminho do projeto ou publique/adapte conforme necessário.
 ## Uso — Biblioteca (Node / Browser)
 
