@@ -1,0 +1,41 @@
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+dist/
+build/
+lib/
+*.tsbuildinfo
+
+# dotenv
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# VSCode
+.vscode/
+
+# OS generated
+desktop.ini
+
+# Arquivos
+package-lock.json
+package.json
+
+# Optional: lockfiles (uncomment if you don't want to track lockfiles)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
